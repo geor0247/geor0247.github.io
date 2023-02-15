@@ -23,7 +23,7 @@ li:nth-child(odd) {
     background:greenyellow
 }
 
-nav ul {
+.lists nav ul {
     list-style: none;
     text-decoration: none;
     
