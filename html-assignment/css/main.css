@@ -27,3 +27,22 @@ nav ul {
     list-style: none;
 }
 
+a:link {
+    text-decoration: none;
+    background: red;
+}
+
+a:visited {
+    text-decoration: none;
+    background: green;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: red;
+}
+
+a:active {
+    text-decoration: none;
+    background: green;
+}
