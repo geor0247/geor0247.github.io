@@ -29,20 +29,20 @@ nav ul {
 
 a:link {
     text-decoration: none;
-    background: red;
+    background: darkorange
 }
 
 a:visited {
     text-decoration: none;
-    background: green;
+    background:darkorange
 }
 
 a:hover {
     text-decoration: none;
-    background-color: red;
+    background: darkorange
 }
 
 a:active {
     text-decoration: none;
-    background: green;
+    background: darkorange
 }
