@@ -73,7 +73,10 @@ table {
 
 nav ul li a{
     width: 33.3%;
-    display: inline-block;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    left: 12%;
 }
 
 .maintitle{
