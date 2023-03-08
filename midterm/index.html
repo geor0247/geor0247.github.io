@@ -8,10 +8,10 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <div class="wrap">
+    <div class="wrapper">
         <header>
-            <img class="cover-image" src="images/lone-starfish-wide.jpg">
-            <div class="covertext"> Lone Starfish</div>
+            <img class="wide-img" src="images/catwide (1).jpg">
+            <div class="centered">The Cat</div>
         </header>
         <nav>
             <ul>
@@ -20,12 +20,56 @@
                 <li><a href="index.html">Contact</a></li>
             </ul>
         </nav>
-        <article class="starting-para">
-            <h1 clas="maintitle">LIFEFNN</h1>
-            <img class="mainimage1" src="images/lone-starfish.jpg">
-            <p class="mainarticle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, aut dolorem quisquam blanditiis consequatur deleniti. Impedit adipisci esse error, accusamus reprehenderit minus, commodi voluptatem dolorem quidem nulla, est aspernatur nemo!</p>
+        <article class="container">
+            <h1 class="h1-title">About the Cat</h1>
+            <img class="small-img" src="images/download (1).jpg">
+            <p class="p1-article">Cat, (Felis catus), also called house cat or domestic cat, domesticated member of the family Felidae, order Carnivora, and the smallest member of that family. Like all felids, domestic cats are characterized by supple low-slung bodies, finely molded heads, long tails that aid in balance, and specialized teeth and claws that adapt them admirably to a life of active hunting. Cats possess other features of their wild relatives in being basically carnivorous, remarkably agile and powerful, and finely coordinated in movement.The cat is similar in anatomy to the other felid species: it has a strong flexible body, quick reflexes, sharp teeth, and retractable claws adapted to killing small prey. Its night vision and sense of smell are well developed. Cat communication includes vocalizations like meowing, purring, trilling, hissing, growling, and grunting as well as cat-specific body language. Although the cat is a social species, it is a solitary hunter. As a predator, it is crepuscular, i.e. most active at dawn and dusk. It can hear sounds too faint or too high in frequency for human ears, such as those made by mice and other small mammals. It also secretes and perceives pheromones.</p>
         </article>
+        <section class="facts">
+            <h1 class="factmain">Facts About Cats</h1>
+            <ul class="factslist">
+                <li class="fact">Cats make very little noise when they walk around. The thick, soft pads on their paws allow them to sneak up on their prey.</li>
+                <li class="fact">Cats will refuse an unpalatable food to the point of starvation.</li>
+                <li class="fact">Cats have a unique “vocabulary” with their owner — each cat has a different set of vocalizations, purrs and behaviors.</li>
+                <li class="fact">Cats find it threatening when you make direct eye contact with them.</li>
+            </ul>
+        </section>
+        <section>
+            <h1 class="contact">Contact to learn more</h1>
+            <form class="form">
+            <div class="form1">
+                <label for="name">Your Name</label><br>
+                <input type="text" id="fullname" name="fullname"><br>
 
+                <label for="email">Email</label><br>
+                <input type="text" id="e-mail" name="e-mail"><br>
+
+                <label for="message">Your Message</label><br>
+                <textarea id="message"></textarea>
+            </div>
+
+                <h1 class="visitor">Would you like to visit the Cat?</h1>
+                 <form>
+                <div class="option">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="yes" name="visit">
+                    
+                    <label for="no">No</label>
+                    <input type="radio" id="no" name="visit">
+                  
+                    <label for="maybe">Maybe</label>
+                    <input type="radio" id="maybe" name="visit"><br>
+                </div>
+                    <div class="submits">
+                        <input type="submit" value="Send">
+                    </div>
+                
+                </form>
+            </form>
+        </section>
+        <footer>
+            &copy;The Cat 2023
+        </footer>
     </div>
 </body>
 </html>

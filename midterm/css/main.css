@@ -42,47 +42,137 @@ table {
 	border-spacing: 0;
 }
 
-.wrap{
+.wrapper{
     margin: 0px auto;
-    width: 1050px;
-    background-color: chocolate;
+    background-color: rgb(255, 121, 25);
+    width: 1000px;
+
+}    
+
+body{
+    background-color: rgb(42, 23, 0);
 }
 
-.cover-image{
+.wide-img{
     width: 100%;
     float: left;
-    padding-right: 0px;
+
     padding-bottom: 10px;
 }
 
-.covertext{
+.centered{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 60px;
-    color: antiquewhite;
-    top: 50%;
-    left: 38.5%;
+    color: rgb(255, 255, 255);
     position: absolute;
+    transform: translate(180%, 250%);
 }
 
-.mainimage1{
+.small-img{
     width: 15%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
 }
 
-.starting-para{
+.container{
     max-width: 1500px;
     padding-right: 15px;
     margin: 0px auto;
+    padding: 10px;
 }
 
-nav ul li a{
-    width: 33.3%;
+nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    float: left;
+    list-style-type: none;
+    margin-left: 30px;
     
 }
 
-.maintitle{
+nav li{
+    display: inline-block;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+.h1-title{
     padding-bottom: 10px;
-    padding-left: 10px
+    padding-left: 10px;
+    transform: translate(0%, 0%);
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.p1-article{
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.factmain{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.factslist{
+    padding: 10px;
+}
+
+.fact{
+    padding-bottom: 5px;
+    list-style-type:circle;
+    padding-left: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.contact{
+    padding-bottom: 10px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.form{
+    border: 5px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.visitor{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.visit{
+    padding: 2px;
+}
+
+.form1 input, .form1 textarea{
+    padding: 10px;
+    width: 95%;
+    padding-bottom: 10px;
+}
+
+.option{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.submits{
+    border: 2px solid black;
+    width: fit-content;
+    
+}
+
+footer{
+    text-align: end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    font-size: 23px;
 }
