@@ -42,6 +42,12 @@ table {
 	border-spacing: 0;
 }
 
+.wrap{
+    margin: 0px auto;
+    width: 1500px;
+    background-color: chocolate;
+}
+
 .cover-image{
     width: 100%;
 }
@@ -59,9 +65,16 @@ table {
     width: 15%;
 }
 
-.cols nav ul li a{
+.starting-para{
+    max-width: 1500px;
+    padding-right: 15px;
+    margin: 0px auto;
+}
+
+nav ul li a{
     width: 33.3%;
     float: left;
+    display: inline-block;
 }
 
 .maintitle{
