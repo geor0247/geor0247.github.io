@@ -44,12 +44,15 @@ table {
 
 .wrap{
     margin: 0px auto;
-    width: 1500px;
+    width: 1050px;
     background-color: chocolate;
 }
 
 .cover-image{
     width: 100%;
+    float: left;
+    padding-right: 0px;
+    padding-bottom: 10px;
 }
 
 .covertext{
@@ -73,10 +76,10 @@ table {
 
 nav ul li a{
     width: 33.3%;
-    float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    left: 12%;
+    float: left;
+    
 }
 
 .maintitle{
