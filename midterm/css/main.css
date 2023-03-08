@@ -51,5 +51,20 @@ table {
     font-size: 60px;
     color: antiquewhite;
     top: 50%;
-    left: 50%;
+    left: 38.5%;
+    position: absolute;
+}
+
+.mainimage1{
+    width: 15%;
+}
+
+.cols nav ul li a{
+    width: 33.3%;
+    float: left;
+}
+
+.maintitle{
+    padding-bottom: 10px;
+    padding-left: 10px
 }
