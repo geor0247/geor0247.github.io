@@ -45,8 +45,385 @@ table {
 	border-spacing: 0;
 }
 
+
+/* css properties */
+
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 1200px;
+    margin: 0%;
+}
+
 .topwrap{
+    background-color:#ffe6ac;
+    width: 1200px;
+}
+
+.logoarea {
+    background-color:black;
+    max-width: 1200px;
+}
+.logoimg{
+    padding: 20px;
+}
+.navlist .searchbutton{
+    height: 100px 200px 100px 200px;
+}
+.navlist{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+.logoarea nav ul li a{
+    color: #c78c06;
+    text-decoration: none;
+    font-size: 2em;
+
+}
+
+.home{
+    background-color: #c78c06;
+    padding: 20px;
+}
+.logoarea .home{
+    color: black;
+}
+
+
+.beginning{
+    position: relative;
+}
+.beginning .mainimg{
+    display: block;
     width: 100%;
-    background-color:wheat;
-    margin: auto;
+}
+.beginning .welcome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -125%);
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 70%;
+
+}
+.beginning .welcome h1{
+    font-size: 4em;
+}
+.topwrapper{
+    max-width: 70%;
+    padding: 50px;
+    align-content: center;
+    align-items: center;
+}
+.topwrapper .about{
+    max-width: 70%;
+    left: 0%;
+}
+
+.topwrapper .about h2{
+    font-size: 4em;
+}
+
+.topwrapper .service-container{
+    max-width: 100%;
+}
+
+.services h2{
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 4em;
+}
+.services h3{
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+.service-container{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+}
+
+/* grid layout used for service section */
+.service-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "digitaltransform digitaltransform digitaltransform marketing marketing marketing"
+        "video-prod video-prod web-dev web-dev print print"
+
+}
+.service-container .digitaltransform{
+    grid-area: digitaltransform;
+}
+.service-container .marketing{
+    grid-area: marketing;
+}
+.service-container .video-prod{
+    grid-area: video-prod;
+}
+.service-container .web-dev{
+    grid-area: web-dev;
+}
+.service-container .print{
+    grid-area: print;
+}
+.service-container .digitaltransform{
+    background-color: #ffe6ac;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.service-container .digitaltransform button{
+    background: black;
+    padding: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.service-container .digitaltransform .servicepic{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0%;
+}
+.service-container .marketing{
+    background-color: #ffe6ac;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.service-container .marketing button{
+    background: black;
+    padding: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.service-container .marketing .servicepic{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0%;
+}
+.service-container .video-prod{
+    background-color: #ffe6ac;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.service-container .video-prod button{
+    background: black;
+    padding: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.service-container .video-prod .servicepic{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0%;
+}
+.service-container .web-dev{
+    background-color: #ffe6ac;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.service-container .web-dev button{
+    background: black;
+    padding: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.service-container .web-dev .servicepic{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0%;
+}
+.service-container .print{
+    background-color: #ffe6ac;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.service-container .print button{
+    background: black;
+    padding: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.service-container .print .servicepic{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0%;
+}
+
+
+
+.visionwrapper{
+    width: 100%;
+ 
+}
+.vision-wrap img{
+   display: inline-block;
+   width: 100%;
+}
+.visionwrapper .topwrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1500%);
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding-left: 50px;
+    overflow: auto;
+}
+
+/* team layout */
+.team .teamwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1080px;
+    max-height: 800px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+.team h2{
+    font-size: 4em;
+    padding: 50px;
+    justify-content: left;
+}
+.team h3{
+    font-size: 3em;
+}
+.team h4{
+    font-size: 2em;
+}
+.team .john-info, .team .bob-info{
+    background-color: #ffe6ac;
+}
+.team .john, .team .john-info, .team .bob, .team .bob-info{
+    width: 600px;
+    height: 400px;
+    
+}
+.team .john-info{
+    order: 1;
+}
+.team .bob{
+    order: 2;
+}
+
+/* contact form properties */
+.contactus .contactwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+    max-width: 1200px;
+    max-height: 800px;
+    padding-left: 20px;
+    margin-right: 20px;
+    flex-flow: row;
+}
+
+.contactus .contactform{
+    flex-grow: 2;
+    flex-basis: 100%;
+    width: 600px;
+    height: 400px;
+    
+}
+.contactus h2{
+    font-size: 4em;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.contactus h3{
+    font-size: 3em;
+    padding-left: 20px;
+}
+.contactus .contactform form{
+    font-size: 2em;
+}
+.contactus .hours{
+    order: 1;
+}
+.contactus .hours table thead tr th{
+    background-color: #ffe6ac;
+}
+.contactus .hours table, th, td{
+    border: 1px solid black;
+    margin-left: 20px;
+    padding-left: 100px;
+    margin-right: 20px;
+    padding-left: 100px;
+}
+.contactus .location{
+    flex-basis: 100%;
+    width: 100%;
+}
+
+
+/* footer properties */
+.footerwrap{
+    color: #c78c06;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    max-width: 1200px;
+    background-color: black;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 760px) {
+    body{
+        min-width: 760px;
+        justify-content: center;
+    }
+    
+    .navlist{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .home{
+        padding-left: 380px;
+        padding-right: 380px;
+    }
+    .service-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .vision-wrap{
+        width: 760px;
+    }
+    .visionwrapper .topwrapper{
+        transform: translate(-23%, 2055%);
+    }
+    .team .teamwrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .contactus .contactwrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items:flex-start
+    }
+    .contactform .contactwrapper .hours{
+        order: -1;
+    }
 }

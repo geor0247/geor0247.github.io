@@ -8,32 +8,38 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <div class="topwrap"> <!--topwrap class has full width and a cream BG color-->
-        <header>
-        <img src="images/logo.png" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <input type="text" placeholder="Search" name="search">
-        </header>
+     <div class="topwrap"> <!--topwrap class has full width and a cream BG color-->
+        <div class="logoarea">
+
+            <header>
+                <img class="logoimg" src="images/logo.png" alt="logo">
+                    <nav>
+                    <ul class="navlist">
+                        <li><a class="home" href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><input class="searchbutton" type="text" placeholder="Search" name="search"></li>
+                    </ul>
+                    </nav>
+                
+            </header>
+
+        </div>
     
 
         <section class="beginning">
         
-            <img src="images/main-banner.jpg" alt="main image">
-        
-            <div class="topwrapper"> <!--topwrapper class has centered position-->
+            <img class="mainimg" src="images/main-banner.jpg" alt="main image">
                 <div class="welcome">
-                <h1>Welcome to Three Star Media</h1>
+                <h1><strong> Welcome to Three Star Media</strong></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, alias repellendus magnam autem iusto ex in reiciendis rem neque architecto cum explicabo reprehenderit perferendis. Libero amet illo corporis omnis fuga.</p>
                 <button class="welcomebutton">Connect with us &#9658;</button>
                 </div>
+        
+            <div class="topwrapper"> <!--topwrapper class has centered position-->
+                
 
                 <div class="about">
                 <img src="images/about-us.jpg" alt="about us image">
@@ -43,69 +49,73 @@
                 </div>
 
             </div>
-    
 
         </section>
     </div>
 
     <section class="services">
-
+        <h2>Our Services</h2>
         <div class="topwrapper">
-            <div class="service-container"> <!--flex properties are used for the desktop layout-->
-                <h2>Our Services</h2>
+            <div class="service-container"> <!--grid properties are used for the desktop layout-->
+                
 
                 <div class="digitaltransform">
-                <img src="images/digital.jpg" alt="digital transformation image">
+                <img class="servicepic" src="images/digital.jpg" alt="digital transformation image">
                 <h3>Digital Transformation</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis pariatur laborum soluta. Quae expedita, rerum cumque saepe temporibus, a consequatur debitis odit voluptates non impedit nobis. Porro officiis eligendi ipsam.</p>
                 <button>Digital Plans &#9658;</button>
                 </div>
 
                 <div class="marketing">
-                <img src="images/marketing.jpg" alt="marketing image">
+                <img class="servicepic" src="images/marketing.jpg" alt="marketing image">
                 <h3>Marketing</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque est corrupti debitis explicabo consequuntur quos vitae minus enim. Fugiat blanditiis nostrum voluptate deserunt alias cum. Enim cumque illo velit quaerat.</p>
                 <button>Marketing Plans &#9658;</button>
                 </div>
 
                 <div class="video-prod">
-                <img src="images/video.jpg" alt="video image">
+                <img class="servicepic" src="images/video.jpg" alt="video image">
                 <h3>Video Production</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti pariatur tempore consequatur repellat atque non, blanditiis, quisquam cupiditate, hic exercitationem veniam quia ex a magni? Ipsum deleniti asperiores laboriosam numquam.</p>
                 <button>Video Plans &#9658;</button>
                 </div>
 
                 <div class="web-dev">
-                <img src="images/web.jpg" alt="web image">
+                <img class="servicepic" src="images/web.jpg" alt="web image">
                 <h3>Web Development</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur veniam maxime rerum cupiditate? Repudiandae delectus harum quo nam quibusdam et dignissimos hic, magnam ab sapiente ipsa praesentium perspiciatis enim quisquam.</p>
                 <button>Web Plans &#9658;</button>
                 </div>
 
                 <div class="print">
-                <img src="images/print.jpg" alt="print image">
+                <img class="servicepic" src="images/print.jpg" alt="print image">
                 <h3>Print</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non odio accusamus nisi provident excepturi, repellat maiores eum ab quia quos! Harum dolore totam adipisci animi quidem. Beatae corrupti cupiditate voluptatibus?</p>
                 <button>Print Plans &#9658;</button>
                 </div>
+                
             </div>
         </div>
     </section>
 
     <div class="vision-wrap"> <!--vision-wrap has same width as topwrap-->
         <img src="images/vision.jpg" alt="vision image">
-            <div class="topwrapper"><!--topwrapper class for centered position in desktop-->
-            <h3>Our Vision</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam ipsa error modi consectetur sint tempore amet reiciendis? Id sint totam blanditiis amet minima atque tempore laborum placeat a beatae!</p>
-            <button>Learn More &#9658;</button>
-            </div>
+
+                    <div class="visionwrapper">
+                        <div class="topwrapper">
+                        <h3>Our Vision</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam ipsa error modi consectetur sint tempore amet reiciendis? Id sint totam blanditiis amet minima atque tempore laborum placeat a beatae!</p>
+                        <button>Learn More &#9658;</button>
+                        </div>
+                    </div>
+
     </div>
 
     <section class="team">
-
-        <div class="topwrapper">
-            <h2>Our Team</h2>
-            <div class="john"> <!--divisions are given for each so grid property can be used to make custom order-->
+        <h2>Our Team</h2>
+        <div class="teamwrapper">
+            
+            <div class="john"> <!--divisions are given for each so flex property can be used to make custom order-->
                 <img src="images/john.jpg" alt="picture of john doe">
             </div>
             <div class="john-info">
@@ -123,16 +133,19 @@
                 <hr>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores numquam voluptas minus sapiente tempora itaque, fugiat ipsam, ratione rerum excepturi, quo error et commodi natus atque unde consequuntur culpa vero?</p>
             </div>
+
         </div>
 
     </section>
 
     <section class="contactus"> <!--acts as container for contact, hours and location elements-->
-        <div class="topwrapper">
+        <h2>Contact Us</h2>
+        <h3>Send us a message</h3>
+        
+        <div class="contactwrapper">
 
             <div class="contactform"> <!--classes are separate so they face each other in desktop mode-->
-                <h2>Contact Us</h2>
-                <h3>Send us a message</h3>
+                
                 <form>
                     <label for="fullname">Full Name</label><br>
                     <input type="text" id="fullname" name="fullname"><br>
